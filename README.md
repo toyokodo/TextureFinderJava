@@ -1,6 +1,6 @@
 # TextureFinderJava
 
-Gets Coordinates from Texture Rotation in Blocks
+Gets Coordinates from Texture Rotation in Blocks. **Optifine changes block rotations! This does not work with Optifine!** I do plan on adding Optifine in the future if that is possible.
 
 ## Installation
 
@@ -9,7 +9,7 @@ Download all of the files in the main folder and put them in a New Java Project.
 
 ## Usage
 
-I created my own [texture pack](https://cdn.discordapp.com/attachments/945391588748689438/945391855414165574/BlockRotations.zip) that tells you which rotation a block is. The block rotation is in the top left corner while facing north. This does not work with Optifine! I do plan on adding Optifine in the future if that is possible.
+I created my own [texture pack](https://cdn.discordapp.com/attachments/945391588748689438/945391855414165574/BlockRotations.zip) that tells you which rotation a block is. The block rotation is in the top left corner while facing north.
 
 ## Example 1
 
