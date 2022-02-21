@@ -4,6 +4,7 @@ public class BlockFace
 {
 	private int x, y, z, rotation;
 	private Side side;
+	private Block block;
 	
 	public BlockFace(int x, int y, int z, Side side, int rotation)
 	{
@@ -12,6 +13,7 @@ public class BlockFace
 		this.z=z;
 		this.side=side;
 		this.rotation=rotation;
+		this.block=block;
 	}
 	
 	public int getX() {return x;}
@@ -19,4 +21,5 @@ public class BlockFace
 	public int getZ() {return z;}
 	public Side getSide() {return side;}
 	public int getRotation() {return rotation;}
+	public Block getBlock() {return block;}
 }
