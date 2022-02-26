@@ -1,4 +1,4 @@
-# TextureFinderJava
+# TextureFinderJava (but better)
 
 Gets Coordinates from Texture Rotation in Blocks. **Optifine changes block rotations! This does not work with Optifine!** I do plan on adding Optifine in the future if that is possible.
 
