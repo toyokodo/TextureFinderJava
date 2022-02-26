@@ -4,12 +4,10 @@ Gets Coordinates from Texture Rotation in Blocks. **Optifine changes block rotat
 
 I plan on creating a GUI for beginner users but I lack the Java knowledge to do so.
 
-## Installation
+## How to use
 
 I use [Eclipse IDE for Java Developers](https://www.eclipse.org/).
 Download all of the files in the main folder and put them in a New Java Project.
-
-## Usage
 
 I created my own [texture pack](https://cdn.discordapp.com/attachments/945391588748689438/945391855414165574/BlockRotations.zip) that tells you which rotation a block is. The block rotation is in the top left corner while facing north.
 
