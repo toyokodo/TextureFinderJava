@@ -2,6 +2,8 @@
 
 Gets Coordinates from Texture Rotation in Blocks. **Optifine changes block rotations! This does not work with Optifine!** I do plan on adding Optifine in the future if that is possible.
 
+I plan on creating a GUI for beginner users but I lack the Java knowledge to do so.
+
 ## Installation
 
 I use [Eclipse IDE for Java Developers](https://www.eclipse.org/).
