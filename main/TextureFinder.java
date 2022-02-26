@@ -21,10 +21,10 @@ public class TextureFinder
 		{
 			rand.setSeed(getCoordinateRandom(x, y, z)>>16);
 
-			//System.out.println((Math.abs((int)((int)rand.nextLong())) % 16));
+			return (int)(Math.abs((int)((int)rand.nextLong())) % 16); //Returns a value 0 to 15 depending on the block's position.
 
-			return (int)(Math.abs((int)((int)rand.nextLong())) % 16);
-
+			//Every block position can have 16 different values. You can find all 16 values with at the coordinates below.
+			
 			/*
 			 * 0  //(14,100,0)  
 			 * 1  //(34,100,0)  
@@ -42,8 +42,7 @@ public class TextureFinder
 			 * 13 //(120,100,0) 
 			 * 14 //(90,100,0)  
 			 * 15 //(6,100,0)   
-			 */	
-
+			 */
 
 		}
 	}
