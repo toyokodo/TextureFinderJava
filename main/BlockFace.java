@@ -6,7 +6,7 @@ public class BlockFace
 	private Side side;
 	private Block block;
 	
-	public BlockFace(int x, int y, int z, Side side, int rotation)
+	public BlockFace(int x, int y, int z, Side side, int rotation, Block block)
 	{
 		this.x=x;
 		this.y=y;
