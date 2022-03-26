@@ -49,8 +49,6 @@ public class TextureFinder
 		}
 	}
 
-
-
 	public static boolean compatibleRotation(int generatedType, BlockFace bface, Block blockType)
 	{
 
@@ -400,77 +398,7 @@ public class TextureFinder
 		 */
 
 
-		//CAVE
-		//formation.add(new BlockFace(X, Y, Z, SIDE, ROTATION, BLOCK));
-//
-//		formation.add(new BlockFace(-4, 0, -1, Side.EAST, 3, Block.STONE));
-//		formation.add(new BlockFace(-4, 0, -2, Side.EAST, 0, Block.STONE));
-//
-//		formation.add(new BlockFace(-2, -1, -1, Side.TOP, 0, Block.STONE));
-//		formation.add(new BlockFace(-2, -1, -2, Side.TOP, 1, Block.STONE));
-//
-//		formation.add(new BlockFace(-1, -1, -1, Side.TOP, 0, Block.STONE));
-//		formation.add(new BlockFace(-1, -1, -2, Side.TOP, 1, Block.STONE));
-//
-//		formation.add(new BlockFace(-3, -1, -1, Side.TOP, 3, Block.STONE));
-//		formation.add(new BlockFace(-3, -1, -2, Side.TOP, 3, Block.STONE));
-//
-//		formation.add(new BlockFace(0, -1, -1, Side.TOP, 2, Block.STONE));
-//		formation.add(new BlockFace(0, -1, -2, Side.TOP, 1, Block.STONE));
-//
-//
-//		formation.add(new BlockFace(-3, 0, -3, Side.SOUTH, 0, Block.STONE));
-//		formation.add(new BlockFace(-3, 0, -2, Side.SOUTH, 3, Block.STONE));
-//		formation.add(new BlockFace(-3, 0, -1, Side.SOUTH, 0, Block.STONE));
-//
-//
-//		formation.add(new BlockFace(-4, 1, -1, Side.EAST, 3, Block.STONE));
-//
-//		formation.add(new BlockFace(-3, 2, -1, Side.EAST, 3, Block.STONE));
-//
-//		formation.add(new BlockFace(-1, 1, 0, Side.EAST, 3, Block.STONE));
-//
-//		formation.add(new BlockFace(0, 2, -4, Side.SOUTH, 3, Block.STONE));
-//		formation.add(new BlockFace(1, 2, -4, Side.SOUTH, 3, Block.STONE));
-//		formation.add(new BlockFace(0, 3, -4, Side.SOUTH, 0, Block.STONE));
-
-
-
-		//SPAWNER
-//		formation.add(new BlockFace(2, 0, 3, Side.NORTH, 3, Block.STONE));
-//		formation.add(new BlockFace(2, 0, 1, Side.SOUTH, 3, Block.STONE));
-//		formation.add(new BlockFace(1, 0, 2, Side.EAST, 0, Block.STONE));
-//		formation.add(new BlockFace(3, 0, 2, Side.WEST, 3, Block.STONE));
-//
-//		formation.add(new BlockFace(2, -1, 3, Side.NORTH, 3, Block.STONE));
-//		formation.add(new BlockFace(2, -1, 1, Side.SOUTH, 3, Block.STONE));
-//		formation.add(new BlockFace(1, -1, 2, Side.EAST, 3, Block.STONE));
-//		formation.add(new BlockFace(3, -1, 2, Side.WEST, 0, Block.STONE));
-//
-//		formation.add(new BlockFace(2, -2, 3, Side.NORTH, 3, Block.STONE));
-//
-//
-//		formation.add(new BlockFace(-1, 6, -3, Side.NORTH, 3, Block.STONE));
-//		formation.add(new BlockFace(-2, 6, -2, Side.NORTH, 0, Block.STONE));
-//		formation.add(new BlockFace(-1, 7, -1, Side.NORTH, 3, Block.STONE));
-//		formation.add(new BlockFace(0, 7, -1, Side.NORTH, 0, Block.STONE));
-//
-//		formation.add(new BlockFace(-3, 6, 0, Side.NORTH, 0, Block.STONE));
-//		formation.add(new BlockFace(-3, 6, -1, Side.NORTH, 3, Block.STONE));
-
-		formation.add(new BlockFace(0, 0, 0, Side.TOP, 0, Block.GRASS));
-		formation.add(new BlockFace(1, 0, 0, Side.TOP, 1, Block.GRASS));
-		formation.add(new BlockFace(2, 0, 0, Side.TOP, 2, Block.GRASS));
-		formation.add(new BlockFace(3, 0, 0, Side.TOP, 3, Block.GRASS));
-
-		formation.add(new BlockFace(0, 0, 1, Side.TOP, 0, Block.GRASS));
-		formation.add(new BlockFace(1, 0, 1, Side.TOP, 1, Block.GRASS));
-		formation.add(new BlockFace(2, 0, 1, Side.TOP, 2, Block.GRASS));
-		formation.add(new BlockFace(3, 0, 1, Side.TOP, 3, Block.GRASS));
-
-
-
-
+		formation.add(new BlockFace(0, 0, 0, Side.TOP, 0, Block.STONE));
 
 
 		boolean useAllRotations = false;//set this to true if you don't know which direction is north
@@ -493,16 +421,9 @@ public class TextureFinder
 		 * MODIFY THESE
 		 */
 
-		//-166 24 893
-
-
-//		int xmin=-166 - 25, xmax=-166 + 25;
-//		int zmin=893 - 25, zmax=893 + 25;
-//		int ymin=20, ymax=50;
-
-		int xmin=-200, xmax=200;
-		int zmin=-200, zmax=200;
-		int ymin=62, ymax=62;
+		int xmin=-100, xmax=100;
+		int zmin=-100, zmax=100;
+		int ymin=64, ymax=64;
 
 		for(int x = xmin; x <= xmax; x++)
 			for(int z = zmin; z <= zmax; z++)
